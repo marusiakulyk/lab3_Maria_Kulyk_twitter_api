@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_7e625e20d89645ffaf79095585c7bab3 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7e625e20d89645ffaf79095585c7bab3" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_7e625e20d89645ffaf79095585c7bab3 = L.map(
+                                  'map_7e625e20d89645ffaf79095585c7bab3',
+                                  {center: [49.83,24.014167],
+                                  zoom: 5,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_73a7859ec734466d9e1662ec2b3b1f91 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_7e625e20d89645ffaf79095585c7bab3);
+        
+    
+            var feature_group_0eecd1d08f8947deb6614cfaa8e25995 = L.featureGroup(
+                ).addTo(map_7e625e20d89645ffaf79095585c7bab3);
+        
+    
+
+            var marker_c13261b3b2544e33a5266c26496332b8 = L.marker(
+                [50.4501071,30.5240501],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_0eecd1d08f8947deb6614cfaa8e25995);
+            
+    
+
+                var icon_feb0306f2e7a4fc9935d9025f7ffc743 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c13261b3b2544e33a5266c26496332b8.setIcon(icon_feb0306f2e7a4fc9935d9025f7ffc743);
+            
+    
+            var popup_22874df3f9f4480d854070d37f6d4a8a = L.popup({maxWidth: '300'});
+
+            
+                var html_4ac64fcc14964c42900eead8a8dad6bd = $('<div id="html_4ac64fcc14964c42900eead8a8dad6bd" style="width: 100.0%; height: 100.0%;">BohdanaNeborakExplore the universe and discover our home planet with @NASA. We usually post in EST (UTC-5)</div>')[0];
+                popup_22874df3f9f4480d854070d37f6d4a8a.setContent(html_4ac64fcc14964c42900eead8a8dad6bd);
+            
+
+            marker_c13261b3b2544e33a5266c26496332b8.bindPopup(popup_22874df3f9f4480d854070d37f6d4a8a);
+
+            
+        
+    
+
+            var marker_f2db87f17c2348b6ae6f49335eedf87f = L.marker(
+                [49.841952,24.0315921],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_0eecd1d08f8947deb6614cfaa8e25995);
+            
+    
+
+                var icon_9906f92ca4714035ab24a646285272c4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f2db87f17c2348b6ae6f49335eedf87f.setIcon(icon_9906f92ca4714035ab24a646285272c4);
+            
+    
+            var popup_88ac73d429e049949fa0e421017a144a = L.popup({maxWidth: '300'});
+
+            
+                var html_79f211d6591f41c39e06f6c6dd7370fc = $('<div id="html_79f211d6591f41c39e06f6c6dd7370fc" style="width: 100.0%; height: 100.0%;">_komashka_Explore the universe and discover our home planet with @NASA. We usually post in EST (UTC-5)</div>')[0];
+                popup_88ac73d429e049949fa0e421017a144a.setContent(html_79f211d6591f41c39e06f6c6dd7370fc);
+            
+
+            marker_f2db87f17c2348b6ae6f49335eedf87f.bindPopup(popup_88ac73d429e049949fa0e421017a144a);
+
+            
+        
+    
+
+            var marker_9024d78a5fcf4ef4b025b09ec14d3334 = L.marker(
+                [46.7323875,-117.0001651],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_0eecd1d08f8947deb6614cfaa8e25995);
+            
+    
+
+                var icon_6e31655e3a5a488db55a305c9ded4bc4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9024d78a5fcf4ef4b025b09ec14d3334.setIcon(icon_6e31655e3a5a488db55a305c9ded4bc4);
+            
+    
+            var popup_a7fa676771024dfb92d98cb2adbbc063 = L.popup({maxWidth: '300'});
+
+            
+                var html_d9f7563636f94e77ab120c46c10851cd = $('<div id="html_d9f7563636f94e77ab120c46c10851cd" style="width: 100.0%; height: 100.0%;">habrahabrExplore the universe and discover our home planet with @NASA. We usually post in EST (UTC-5)</div>')[0];
+                popup_a7fa676771024dfb92d98cb2adbbc063.setContent(html_d9f7563636f94e77ab120c46c10851cd);
+            
+
+            marker_9024d78a5fcf4ef4b025b09ec14d3334.bindPopup(popup_a7fa676771024dfb92d98cb2adbbc063);
+
+            
+        
+</script>
